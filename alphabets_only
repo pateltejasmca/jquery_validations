@@ -1,0 +1,3 @@
+jQuery.validator.addMethod("alphabetic", function(value, element) {
+        return this.optional(element) || /^[a-zA-Z]+$/.test(value);
+}, "Please enter alphabetic value only."); 
